@@ -11,6 +11,14 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 ## Konfiguracje testowe
 
 * link:/SpringBootProjectWAR[Test nr 1]: SpringBootProjectWAR
+
+. Uruchomienie: Run As > Run on Server
+. URL: localhost:8080/SpringBootProjectWAR
+
 * link:/SpringBootProjectJAR[Test nr 2]: SpringBootProjectJAR
+
+. Uruchomienie: Run As > Spring Boot App / Java Application
+. URL: localhost:8080
+
 
 
