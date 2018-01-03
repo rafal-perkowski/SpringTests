@@ -1,0 +1,16 @@
+= README - SPRING TESTS
+
+:githubdir: https://github.com/rafal-perkowski
+:projectdir: /SpringTests
+:blobmasterdir: /blob/master
+
+## Wstęp
+
+Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
+
+## Konfiguracje testowe
+
+* link:/SpringBootProjectWAR[Test nr 1]: SpringBootProjectWAR
+* link:/SpringBootProjectJAR[Test nr 2]: SpringBootProjectJAR
+
+
