@@ -50,3 +50,13 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 . Uruchomienie: Run As > Spring Boot App / Java Application
 . URL: localhost:8080
 
+* link:SBP-WAR-Internet-Rzeczy[Test nr 9]: SBP-WAR-Internet-Rzeczy
+
+. Uruchomienie: Run As > Run on Server
+. URL: localhost:8080/SBP-WAR-Internet-Rzeczy
+
+* link:SBP-JAR-Internet-Rzeczy[Test nr 10]: SBP-JAR-Internet-Rzeczy
+
+. Uruchomienie: Run As > Spring Boot App / Java Application
+. URL: localhost:8080
+
