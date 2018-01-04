@@ -20,12 +20,12 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 . Uruchomienie: Run As > Spring Boot App / Java Application
 . URL: localhost:8080
 
-* link:/SpringBootProjectWAR[Test nr 3]: SpringBootProjectHTTPWAR
+* link:/SpringBootProjectHTTPWAR[Test nr 3]: SpringBootProjectHTTPWAR
 
 . Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SpringBootProjectWAR/?username=Jan&age=30
+. URL: localhost:8080/SpringBootProjectHTTPWAR/?username=Jan&age=30
 
-* link:/SpringBootProjectJAR[Test nr 4]: SpringBootProjectHTTPJAR
+* link:/SpringBootProjectHTTPJAR[Test nr 4]: SpringBootProjectHTTPJAR
 
 . Uruchomienie: Run As > Spring Boot App / Java Application
 . URL: localhost:8080/?username=Jan&age=30
