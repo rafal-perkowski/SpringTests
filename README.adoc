@@ -33,7 +33,7 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 * link:SBP-WAR-Redirect[Test nr 5]: SBP-WAR-Redirect
 
 . Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SpringBootProjectWAR
+. URL: localhost:8080/SBP-WAR-Redirect
 
 * link:SBP-JAR-Redirect[Test nr 6]: SBP-JAR-Redirect
 
@@ -43,10 +43,10 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 * link:SBP-WAR-Forward[Test nr 7]: SBP-WAR-Forward
 
 . Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SpringBootProjectHTTPWAR/?username=Jan&age=30
+. URL: localhost:8080/SBP-WAR-Forward
 
 * link:SBP-JAR-Forward[Test nr 8]: SBP-JAR-Forward
 
 . Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080/?username=Jan&age=30
+. URL: localhost:8080
 
