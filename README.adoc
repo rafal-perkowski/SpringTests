@@ -10,22 +10,42 @@ Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
 
 ## Konfiguracje testowe
 
-* link:/SpringBootProjectWAR[Test nr 1]: SpringBootProjectWAR
+* link:SpringBootProjectWAR[Test nr 1]: SpringBootProjectWAR
 
 . Uruchomienie: Run As > Run on Server
 . URL: localhost:8080/SpringBootProjectWAR
 
-* link:/SpringBootProjectJAR[Test nr 2]: SpringBootProjectJAR
+* link:SpringBootProjectJAR[Test nr 2]: SpringBootProjectJAR
 
 . Uruchomienie: Run As > Spring Boot App / Java Application
 . URL: localhost:8080
 
-* link:/SpringBootProjectHTTPWAR[Test nr 3]: SpringBootProjectHTTPWAR
+* link:SpringBootProjectHTTPWAR[Test nr 3]: SpringBootProjectHTTPWAR
 
 . Uruchomienie: Run As > Run on Server
 . URL: localhost:8080/SpringBootProjectHTTPWAR/?username=Jan&age=30
 
-* link:/SpringBootProjectHTTPJAR[Test nr 4]: SpringBootProjectHTTPJAR
+* link:SpringBootProjectHTTPJAR[Test nr 4]: SpringBootProjectHTTPJAR
+
+. Uruchomienie: Run As > Spring Boot App / Java Application
+. URL: localhost:8080/?username=Jan&age=30
+
+* link:SBP-WAR-Redirect[Test nr 5]: SBP-WAR-Redirect
+
+. Uruchomienie: Run As > Run on Server
+. URL: localhost:8080/SpringBootProjectWAR
+
+* link:SBP-JAR-Redirect[Test nr 6]: SBP-JAR-Redirect
+
+. Uruchomienie: Run As > Spring Boot App / Java Application
+. URL: localhost:8080
+
+* link:SBP-WAR-Forward[Test nr 7]: SBP-WAR-Forward
+
+. Uruchomienie: Run As > Run on Server
+. URL: localhost:8080/SpringBootProjectHTTPWAR/?username=Jan&age=30
+
+* link:SBP-JAR-Forward[Test nr 8]: SBP-JAR-Forward
 
 . Uruchomienie: Run As > Spring Boot App / Java Application
 . URL: localhost:8080/?username=Jan&age=30
