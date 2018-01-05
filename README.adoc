@@ -50,11 +50,11 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 * link:sbp-jar-internetrzeczy[Test nr 10]: sbp-jar-internetrzeczy
 ** _URL: localhost:8080_
 
-* link:sbp-war-forward[Test nr 11]: sbp-jar-thymeleaf
+* link:sbp-jar-thymeleaf[Test nr 11]: sbp-jar-thymeleaf
 ** _URL: localhost:8080_
 
-* link:sbp-jar-forward[Test nr 12]: sbp-jar-springdata-1
+* link:sbp-jar-springdata-1[Test nr 12]: sbp-jar-springdata-1
 
-* link:sbp-war-internetrzeczy[Test nr 13]: sbp-jar-springdata-2
+* link:sbp-jar-springdata-2[Test nr 13]: sbp-jar-springdata-2
 
-* link:sbp-jar-internetrzeczy[Test nr 14]: sbp-jar-springdata-3
+* link:sbp-jar-springdata-3[Test nr 14]: sbp-jar-springdata-3
