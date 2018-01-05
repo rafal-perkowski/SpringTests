@@ -8,55 +8,53 @@
 
 Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 
+## Uruchomienie
+
+* WAR: Run As > Run on Server
+. _URL: localhost:8080/nazwa-testu/_
+. _URL: localhost:8080/nazwa-testu/?name1=value1&name2=value2_
+
+* JAR: Run As > Spring Boot App / Java Application
+. _URL: localhost:8080_
+. _URL: localhost:8080/?name1=value1&name2=value2_
+
 ## Konfiguracje testowe
 
-* link:SpringBootProjectWAR[Test nr 1]: SpringBootProjectWAR
+* link:sbp-war[Test nr 1]: sbp-war
+** _URL: localhost:8080/sbp-war/_
 
-. Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SpringBootProjectWAR
+* link:sbp-jar[Test nr 2]: sbp-jar
+** _URL: localhost:8080_
 
-* link:SpringBootProjectJAR[Test nr 2]: SpringBootProjectJAR
+* link:sbp-war-http[Test nr 3]: sbp-war-http
+** _URL: localhost:8080/sbp-war-http/?username=Jan&age=30_
 
-. Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080
+* link:sbp-jar-http[Test nr 4]: sbp-jar-http
+** _URL: localhost:8080/?username=Jan&age=30_
 
-* link:SpringBootProjectHTTPWAR[Test nr 3]: SpringBootProjectHTTPWAR
+* link:sbp-war-redirect[Test nr 5]: sbp-war-redirect
+** _URL: localhost:8080/sbp-war-redirect/_
 
-. Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SpringBootProjectHTTPWAR/?username=Jan&age=30
+* link:sbp-jar-redirect[Test nr 6]: sbp-jar-redirect
+** _URL: localhost:8080_
 
-* link:SpringBootProjectHTTPJAR[Test nr 4]: SpringBootProjectHTTPJAR
+* link:sbp-war-forward[Test nr 7]: sbp-war-forward
+** _URL: localhost:8080/sbp-war-forward/_
 
-. Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080/?username=Jan&age=30
+* link:sbp-jar-forward[Test nr 8]: sbp-jar-forward
+** _URL: localhost:8080_
 
-* link:SBP-WAR-Redirect[Test nr 5]: SBP-WAR-Redirect
+* link:sbp-war-internetrzeczy[Test nr 9]: sbp-war-internetrzeczy
+** _URL: localhost:8080/sbp-war-internetrzeczy_
 
-. Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SBP-WAR-Redirect
+* link:sbp-jar-internetrzeczy[Test nr 10]: sbp-jar-internetrzeczy
+** _URL: localhost:8080_
 
-* link:SBP-JAR-Redirect[Test nr 6]: SBP-JAR-Redirect
+* link:sbp-war-forward[Test nr 11]: sbp-jar-thymeleaf
+** _URL: localhost:8080_
 
-. Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080
+* link:sbp-jar-forward[Test nr 12]: sbp-jar-springdata-1
 
-* link:SBP-WAR-Forward[Test nr 7]: SBP-WAR-Forward
+* link:sbp-war-internetrzeczy[Test nr 13]: sbp-jar-springdata-2
 
-. Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SBP-WAR-Forward
-
-* link:SBP-JAR-Forward[Test nr 8]: SBP-JAR-Forward
-
-. Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080
-
-* link:SBP-WAR-Internet-Rzeczy[Test nr 9]: SBP-WAR-Internet-Rzeczy
-
-. Uruchomienie: Run As > Run on Server
-. URL: localhost:8080/SBP-WAR-Internet-Rzeczy
-
-* link:SBP-JAR-Internet-Rzeczy[Test nr 10]: SBP-JAR-Internet-Rzeczy
-
-. Uruchomienie: Run As > Spring Boot App / Java Application
-. URL: localhost:8080
-
+* link:sbp-jar-internetrzeczy[Test nr 14]: sbp-jar-springdata-3
