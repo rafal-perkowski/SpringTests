@@ -65,11 +65,11 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 * link:sbp-jar-springdata-3[Test nr 14]: sbp-jar-springdata-3
 ** _CrudRepository i metody CRUD_
 
-* link:sbp-jar-springdata-1[Test nr 15]: sbp-jar-springdata-4
+* link:sbp-jar-springdata-4[Test nr 15]: sbp-jar-springdata-4
 ** _"Monster" QUERY: wariant #1_
 
-* link:sbp-jar-springdata-2[Test nr 16]: sbp-jar-springdata-5
+* link:sbp-jar-springdata-5[Test nr 16]: sbp-jar-springdata-5
 ** _"Monster" QUERY: wariant #2_
 
-* link:sbp-jar-springdata-3[Test nr 17]: sbp-jar-springdata-6
+* link:sbp-jar-springdata-6[Test nr 17]: sbp-jar-springdata-6
 ** _"Monster" QUERY: wariant #3_
