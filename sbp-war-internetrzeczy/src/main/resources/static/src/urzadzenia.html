@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<title>Internet of Things - Internet Rzeczy</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content= "Rafał Perkowski"/>
+		<meta name="description" content="Internet rzeczy, Internet of Things"/>
+		<meta name="keywords" content="Internet Rzeczy,Internet of Things,Wireless Communication,Microcontrollers,Cloud Computing, Embedded Devices"/>
+		<link rel="stylesheet" type="text/css" href="src/styles/style.css" />
+	</head>
+	<body>
+		<div id="block">
+			<div class="header">
+				<div class="top">
+					<a href="index.html"><h1>Internet Rzeczy</h1></a>
+				</div>
+				<div class="nav">
+					<ul id="menulist">
+						<li class="menuitem"><a href="architektura.html">Architektura</a></li>
+						<li class="menuitem" style="background-color: Lime"><a href="urzadzenia.html">Urządzenia</a></li>
+						<li class="menuitem"><a href="chmura.html">Chmura</a></li>
+						<li class="menuitem"><a href="zastosowania.html">Zastosowania</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main">
+				<div class="section">
+					<h2>Urządzenia</h2>
+					<p class="indent">Zdecydowana większość urządzeń Internetu Rzeczy z uwagi na rozmiar i ograniczoną do konkretnego zastosowania funkcjonalność nie wymaga do 
+					działania i interakcji z otoczeniem dużej mocy obliczeniowej i przepustowości co zawsze wiąże się z nadmiernym zużyciem energii. W przypadku braku możliwości
+					podłączenia urządzenia do sieci przewodowej (ze względów technicznych bądź ekonomicznych), a tak jest w przypadku urządzeń mobilnych oraz znajdujących się w trudno
+					dotępnych lokalizacjch, naturalnym rozwiązaniem jest zastosowanie wybranej technologii bezprzewodowej (lub kilku jednocześnie w przypadku wielosystemowych rozwiązań).
+					Systemy wbudowane zajmujące się sterowaniem innych obiektów działają przeważnie w czasie rzeczywistym <i>(ang. real-time computing - RTC)</i> dlatego ich projektowanie, 
+					programowanie i konfiguracja jest głównie domeną tzw. inżynierii systemowej <i>(ang. Systems Engineering)</i>.</p>
+				</div>
+				<div class="section">
+					<h3>Mikrokontrolery</h3>
+					<p class="indent">Mikrokontroler <i>(ang. microcontroller)</i> to scalony system mikroprocesorowy, zrealizowany w postaci pojedynczego układu scalonego zawierającego
+					jednostkę centralną (CPU), pamięć (RAM) oraz rozbudowane układy wejścia-wyjścia (IN/OUT) przez które komunikuje się z otoczeniem (tj. urządzeniami i systemami zewnętrznymi).
+					Główni producenci takich układów na świecie, w kolejności udziałów w rynku w roku 2016 i uwzględniając liczne fuzje w ostatnich latach, to:</p>
+					<ul>
+						<li>NXP (dawniej Philips, Holandia) po przejęciu Freescale (USA)</li>
+						<li>Renesas Electronics (Japonia)</li>
+						<li>Microchip (USA) po przejęciu Atmel (USA)</li>
+						<li>Samsung (Korea Płd)</li>
+						<li>STMicroelectronics (Francja, Włochy)</li>
+						<li>Infineon (Niemcy)</li>
+						<li>Texas Instruments (USA)</li>
+						<li>Cypress (USA) po przejęciu Spansion (USA)</li>
+					</ul>
+				</div>
+				<div class="section">
+					<h3>Technologie bezprzewodowe</h3>
+					<p class="indent">Komunikację bezprzewodową na potrzeby IoT realizuje się obecnie na kilka sposobów. Ich wybór zależy głównie od zasięgu w jakim urządzenie ma się łączyć
+					z najbliższymi (lub z uwagi na zastosowanie najbardziej opłacalnymi) punktami dostępowymi sieci Internet.</p>
+					<p><strong>Krótki zasięg</strong> <i>(ang. short range)</i>:</p>
+					<ul>
+						<li>Bluetooth 4.0 LE, Bluetooth 5.0 - do bliskiej komunikacji każdy z każdym (mesh)</li>
+						<li>NFC <i>(ang. Near-field communication)</i> - do płatności zbliżeniowych (telefony)</li>
+						<li>RFID <i>(ang. Radio-frequency identification)</i> - do pasywnego etykietowania towarów</li>
+						<li>Z-Wave - stosowana głównie w automatyzacji budynków</li>
+						<li>ZigBee - używana do tworzenia sieci sensorowych (aktywne etykietowanie)</li>
+						<li>WiFi / Wifi Direct - do komunikacji z punktem dostępowym</li>
+					</ul>
+					<p><strong>Średni zasięg</strong> <i>(ang. medium range)</i>:</p>
+					<ul>
+						<li>GSM/GPRS (2G), UMTS/HSPA (3G), LTE (4G) - sieci komórkowe kolejnych generacji</li>
+						<li>WiFi (HaLow)</li>
+					</ul>
+					<p><strong>Daleki zasięg</strong> <i>(ang. long range)</i>:</p>
+					<ul>
+						<li>LoRaWan - prywatne sieci sensorowe</li>
+						<li>Sigfox - sieć bezprzewodowego odczytu mierników</li>
+						<li>NB-IoT - wąskopasmowa wersja technologii LTE do łączenia dużej liczby urządzeń i bezpośredniej komunikacji z chmurą</li>
+						<li>Long Range WiFi</li>
+					</ul>
+				</div>
+				<div class="section">
+					<h3>Sensory i elementy wykonawcze</h3>
+					<p class="indent">Głównym zadaniem mikrokontrolerów wyposażonych w bezprzewodowe możliwości komunikacyjne (a także bardzo często lokalizacyjne tj. GPS) jest zarówno przekazywanie stanu 
+					sterowanych urządzeń do innych systemów, jak i w drugą stronę wpływanie na zmianę tego stanu (np. za pomocą przekaźników - <i>ang. relays</i>) zależnie od wiadomości odebranych 
+					od scentralizowanych/zdalnych systemów zarządzania. Do realizacji takich zadań służą podzespoły zwane czujnikami <i>(ang. sensors)</i> i elementami wykonawczymi <i>(ang. actuators)</i>. 
+					Te drugie to przede wszystkim różnego typu silniki (np. krokowe), siłowniki pneumatyczne, hydrauliczne, wzmacniacze elektrohydrauliczne, czyli urządzenia mechaniczne występujące w układach regulacji. 
+					Sensory, które obecnie znajdują dużo szersze zastosowanie w urządzeniach IoT, to podzespoły mające za zadanie rejestrowanie fizyko-chemicznych bodźców z otoczenia i ich zamianę za pomocą odpowiedniego
+					przetwornika na sygnał elektryczny, dużo łatwiej mierzalny. Czujniki znajdujące się obecnie w użyciu można podzielić na kilka grup:</p>
+					<ul>
+						<li>czujniki pomiaru poziomu dźwięku / hałasu</li>
+						<li>czujniki pomiaru temperatury, wilgotności i ciśnienia</li>
+						<li>czujniki pomiaru natężenia światła i promieniowania słonecznego</li>
+						<li>czujniki pomiaru odległości (ultradźwiękowe)</li>
+						<li>czujniki pomiaru stężenia gazów (tlenu, tlenku węgla, dwutlenku węgla, ozonu, związków azotowych, siarkowych, wodorowych i wielu innych)</li>
+						<li>czujniki pomiaru zapylenia</li>
+						<li>czujniki pomiaru położenia (żyroskopowe)</li>
+						<li>czujniki lokalizacyjne i pomiaru wysokości</li>
+						<li>czujniki ruchu</li>
+						<li>czujniki detekcji, pomiaru poziomu i przepływu płynów</li>
+						<li>czujniki natężenia pola magnetycznego</li>
+						<li>czujniki pomiaru odczynu pH</li>
+						<li>czujniki pomiaru przewodzenia</li>
+						<li>czujniki pomiaru naprężeń itd.</li>
+					</ul>
+				</div>
+				<div class="section">
+					<h3>Protokoły, języki programowania i open hardware</h3>
+					<p class="indent">Specyfika środowiska systemów wbudowanych kładzie również nacisk na stosowanie dedykowanych wersji protokołów i języków programowania. Warto wspomnieć o niektórych z nich:</p>
+					<h4>Protokoły</h4>
+					<ul>
+						<li>MQTT - protokół transmisji danych dedykowany komunikacji typu maszyna-maszyna</li>
+						<li>CoAP - protokół transmisji pomiędzy urządzeniami o ograniczonych zasobach, łatwy w translacji do HTTP, a co za tym idzie integracji z siecią WWW</li>
+						<li>IPv6 (6LoWPAN) - nowa wersja internetowego protokołu komunikacyjnego IPv4 ze zwiększoną z 32 do 128 bitów pulą bitów adresowych</li>
+					</ul>
+					<h4>Języki programowania</h4>
+					<ul>
+						<li>MicroPython</li>
+						<li>C/C++</li>
+						<li>Java ME</li>
+						<li>JavaScript (Node.js)</li>
+					</ul>
+					<p class="indent">Istnieją również platformy programistyczne oparte o ideę tzw. Open Hardware. Wydaje się, że największą popularność i liczbę zwolenników uzyskały póki co dwie z nich, 
+					czyli Arduino <i>(SBM - Single Board Microcontroller)</i> i Raspberry Pi <i>(SBC - Single Board Computer)</i>. Osobom chcącym praktycznie (we własnych projektach) zaznajomić się z programowaniem systemów wbudowanych 
+					lub działających w oparciu o Linuxa lub Windows 10 IoT można je śmiało polecić, jako uzupełniające się rozwiązania. Natomiast dla chcących zapoznać się z konkretną rodziną mikrokontrolerów ich producenci
+					oferują zestawy ewaluacyjne w skład których wchodzi tzw. płytka rozwojowa <i>(ang. development board)</i>, czyli specjalnie przygotowana płytka drukowana <i>(ang. PCB - printed circuit board)</i>
+					dla celów edukacyjnych, a co za tym idzie łatwiejszego zaznajomienia się z funkcjonalnością nowego układu mikrokontrolera.</p>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<p>Copyright &copy; 2017</p>
+			</div>
+		</div>
+	</body>
+</html>
+
