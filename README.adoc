@@ -11,12 +11,15 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 ## Uruchomienie
 
 * WAR: Run As > Run on Server
-. _URL: localhost:8080/nazwa-testu/_
-. _URL: localhost:8080/nazwa-testu/?name1=value1&name2=value2_
+** _URL: localhost:8080/nazwa-testu/_
+** _URL: localhost:8080/nazwa-testu/?name1=value1&name2=value2_
 
 * JAR: Run As > Spring Boot App / Java Application
-. _URL: localhost:8080_
-. _URL: localhost:8080/?name1=value1&name2=value2_
+** _URL: localhost:8080_
+** _URL: localhost:8080/?name1=value1&name2=value2_
+
+* SPRING DATA:
+** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
 
 ## Konfiguracje testowe
 
@@ -54,10 +57,19 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 ** _URL: localhost:8080_
 
 * link:sbp-jar-springdata-1[Test nr 12]: sbp-jar-springdata-1
-** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
+** _CrudRepository i funkcja findAll()_
 
 * link:sbp-jar-springdata-2[Test nr 13]: sbp-jar-springdata-2
-** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
+** _PagingAndSortingRepository_
 
 * link:sbp-jar-springdata-3[Test nr 14]: sbp-jar-springdata-3
-** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
+** _CrudRepository i metody CRUD_
+
+* link:sbp-jar-springdata-1[Test nr 15]: sbp-jar-springdata-4
+** _"Monster" QUERY: wariant #1_
+
+* link:sbp-jar-springdata-2[Test nr 16]: sbp-jar-springdata-5
+** _"Monster" QUERY: wariant #2_
+
+* link:sbp-jar-springdata-3[Test nr 17]: sbp-jar-springdata-6
+** _"Monster" QUERY: wariant #3_
