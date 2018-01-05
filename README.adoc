@@ -6,7 +6,7 @@
 
 ## Wstęp
 
-Testowe szkielety projektowe tworzone w Spring Test Suite (STS)
+Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 
 ## Konfiguracje testowe
 
