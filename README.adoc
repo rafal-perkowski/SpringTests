@@ -45,7 +45,7 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 ** _URL: localhost:8080_
 
 * link:sbp-war-internetrzeczy[Test nr 9]: sbp-war-internetrzeczy
-** _URL: localhost:8080/sbp-war-internetrzeczy_
+** _URL: localhost:8080/sbp-war-internetrzeczy/_
 
 * link:sbp-jar-internetrzeczy[Test nr 10]: sbp-jar-internetrzeczy
 ** _URL: localhost:8080_
