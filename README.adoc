@@ -54,7 +54,10 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 ** _URL: localhost:8080_
 
 * link:sbp-jar-springdata-1[Test nr 12]: sbp-jar-springdata-1
+** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
 
 * link:sbp-jar-springdata-2[Test nr 13]: sbp-jar-springdata-2
+** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
 
 * link:sbp-jar-springdata-3[Test nr 14]: sbp-jar-springdata-3
+** W pliku _[application.properties]_ w linii _[spring.datasource.password={asterisk}{asterisk}{asterisk}]_ należy skonfigurować własne hasło
