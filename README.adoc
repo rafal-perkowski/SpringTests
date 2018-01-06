@@ -73,3 +73,26 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS)
 
 * link:sbp-jar-springdata-6[Test nr 17]: sbp-jar-springdata-6
 ** _"Monster" QUERY: wariant #3_
+
+* link:sbp-jar-springdata-7[Test nr 18]: sbp-jar-springdata-7
+** __MVC + SpringData + Thymeleaf__
+
+* link:sbp-jar-springvalidation[Test nr 19]: sbp-jar-springvalidation
+** __Errors + Validation + Binding__
+
+* link:sbp-jar-springsecurity-1[Test nr 20]: sbp-jar-springsecurity-1
+** Wstawienie w pliku _[application.properties]_ linii _[security.basic.enabled=true]_
+
+* link:sbp-jar-springsecurity-2[Test nr 21]: sbp-jar-springsecurity-2
+** Ustawienie w pliku _[application.properties]_ parametrów logowania
+** W liniach _[security.user.{asterisk}]_ należy ustawić odpowiednio: _[name], [password], [role]_
+
+* link:sbp-jar-springsecurity-3[Test nr 22]: sbp-jar-springsecurity-3
+** _Formularz logowania_
+
+* link:sbp-jar-springsecurity-4[Test nr 23]: sbp-jar-springsecurity-4
+** _Widok formularza logowania_
+
+* link:sbp-jar-springsecurity-5[Test nr 24]: sbp-jar-springsecurity-5
+** _Logowanie i wylogowanie_
+
