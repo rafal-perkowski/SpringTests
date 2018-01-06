@@ -22,8 +22,8 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS).
 uruchamiane w środowisku Eclipse IDE [Eclipse Oxygen.1a (4.7.1a)].
 * https://maven.apache.org/docs/3.5.2/release-notes.html[Apache Maven 3.5.2] - narzędzie automatyzujące budowę oprogramowania na platformę Java +
 (realizowane głównie za pomocą wtyczek _ang. plugins_).
-* https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.47/[Apache Tomcat 8.0.47] - kontener aplikacji webowych umożliwiający uruchamianie + 
-aplikacji internetowych w technologiach języka Java.
+* https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.47/[Apache Tomcat 8.0.47] - kontener aplikacji webowych umożliwiający uruchamianie aplikacji internetowych +
+w technologiach języka Java.
 * http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html[Thymeleaf 3.0] - silnik szablonów tworzonych w języku HTML i wypełnianych atrybutami z modelu w języka Java.
 
 ## Uruchomienie
