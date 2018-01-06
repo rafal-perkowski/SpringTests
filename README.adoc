@@ -13,6 +13,7 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS).
 * "Spring Framework" - ~200 slajdów z kursu PWN Back-End Developer.
 * https://spring.io/docs/reference[Spring Documentation] - dokumentacja projektowa szkieletu tworzenia aplikacji Spring dla języka Java.
 ** https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/[Spring Boot] - Spring Boot Reference Guide [1.5.9.RELEASE]
+** https://docs.spring.io/spring-data/jpa/docs/current/reference/html/[Spring Data] - Spring Data JPA Reference Documentation [2.0.2.RELEASE]
 ** https://docs.spring.io/spring-security/site/docs/5.0.0.RELEASE/reference/htmlsingle/[Spring Security] - Spring Security Reference [5.0.0.RELEASE]
 
 ## Narzędzia
@@ -22,7 +23,8 @@ uruchamiane w środowisku Eclipse IDE [Eclipse Oxygen.1a (4.7.1a)].
 * https://maven.apache.org/docs/3.5.2/release-notes.html[Apache Maven 3.5.2] - narzędzie automatyzujące budowę oprogramowania na platformę Java +
 (realizowane głównie za pomocą wtyczek _ang. plugins_).
 * https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.47/[Apache Tomcat 8.0.47] - kontener aplikacji webowych umożliwiający uruchamianie + 
-aplikacji internetowych w technologiach języka Java. 
+aplikacji internetowych w technologiach języka Java.
+* http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html[Thymeleaf 3.0] - silnik szablonów tworzonych w języku HTML i wypełnianych atrybutami z modelu w języka Java.
 
 ## Uruchomienie
 
