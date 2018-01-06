@@ -17,7 +17,7 @@ Testowe szkielety projektowe tworzone w Spring Tool Suite (STS).
 
 ## Narzędzia
 
-* https://spring.io/tools/sts/legacy[Spring Tool Suite 3.9.1] - graficzne narzędzie wspomagające tworzenie aplikacji opartych o szkielet Spring, 
+* https://spring.io/tools/sts/legacy[Spring Tool Suite 3.9.1] - graficzne narzędzie wspomagające tworzenie aplikacji opartych o szkielet Spring, +
 uruchamiane w środowisku Eclipse IDE [Eclipse Oxygen.1a (4.7.1a)].
 * https://maven.apache.org/docs/3.5.2/release-notes.html[Apache Maven 3.5.2] - narzędzie automatyzujące budowę oprogramowania na platformę Java +
 (realizowane głównie za pomocą wtyczek _ang. plugins_).
